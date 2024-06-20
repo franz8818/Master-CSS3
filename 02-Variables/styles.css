@@ -1,0 +1,140 @@
+/* VARIABLES
+Pequeños espacios en la memoria de un programa
+Caja donde guardo un dato
+*/
+:root{
+    --link: YELLOW;
+    --background-color: hotpink;
+    --background-color2: #b8daba;
+}
+
+body {
+    background-color: #212121;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+h1{
+ color: #ffffff;   
+}
+
+
+/* CARD A */
+
+.cardsA{
+    /*
+    TAMAÑOS
+    */
+    width: 400px;
+    /*
+    MARGENES
+    */
+    margin: 30px auto;
+    padding: 20px;
+     /*
+    EXTRAS
+    */
+    border: 2px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.cards__cardA{
+    padding: 10px;
+    margin: 5px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #ececec;
+}
+
+/* .clave .key selector */
+.cardA__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardA__link {
+    color: blue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cardA__link--pink{
+    background-color: hotpink;
+}
+
+
+/* CARD B */
+
+.cardsB{
+    /*
+    TAMAÑOS
+    */
+    width: 400px;
+    /*
+    MARGENES
+    */
+    margin: 30px auto;
+    padding: 20px;
+     /*
+    EXTRAS
+    */
+    border: 2px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.cardsB .cardB {
+    padding: 10px;
+    margin: 5px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #ececec;
+    color: black;
+}
+
+/* CARDB */
+/* .contexto .clave */
+.cardsB .cardB h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardsB .cardB a {
+    color: var(--link);
+    padding: 10px;
+    font-weight: bold;
+    background-color: var(--background-color2);
+}
+
+.cardsB .cardB2 a {
+    color: var(--link);
+    padding: 10px;
+    font-weight: bold;
+    background-color: var(--background-color);
+}
+
+/* CARDB2 */
+.cardsB .cardB2 {
+    padding: 10px;
+    margin: 5px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #ececec;
+    color: black;
+}
+
+/* .contexto .clave */
+.cardsB .cardB2 h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
