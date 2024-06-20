@@ -1,0 +1,53 @@
+body {
+    background-color: cadetblue;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+/* BEM */
+.cardsA{
+    /* TAMAÑOS */
+    width: 300px;
+    height: 180px;
+
+    /* MARGENES */
+    margin: 50px auto;
+    padding: 8px;
+
+    /* EXTRAS */
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+
+    /* BOX-SIZING */
+    box-sizing: border-box; /* Respeta el tamaño de la caja */
+}
+
+.cards__cardA{
+    padding: 8px 1px;
+    margin: 1px auto;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #ececec;
+}
+
+/* .clave .key selector */
+.cardA__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardA__link {
+    color: 15202b;
+    padding: 0px;
+    font-weight: bold;
+}
+

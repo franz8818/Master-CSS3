@@ -6,6 +6,9 @@ Caja donde guardo un dato
     --link: YELLOW;
     --background-color: hotpink;
     --background-color2: #b8daba;
+    --font-A: Verdana;
+    --font-b: Arial;
+    --font-size: x-small;
 }
 
 body {
@@ -50,7 +53,7 @@ h1{
     padding: 10px;
     margin: 5px;
     /* border-bottom: 1px solid #aaaaaa; */
-    font-family:'Courier New', Courier, monospace;
+    font-family:var(--font-A);
     background-color: #ececec;
 }
 
@@ -64,6 +67,7 @@ h1{
     color: blue;
     padding: 10px;
     font-weight: bold;
+    font-size: var(--font-size);
 }
 
 .cardA__link--pink{
@@ -97,7 +101,7 @@ h1{
     padding: 10px;
     margin: 5px;
     /* border-bottom: 1px solid #aaaaaa; */
-    font-family:'Courier New', Courier, monospace;
+    font-family: var(--font-b);
     background-color: #ececec;
     color: black;
 }
@@ -128,7 +132,7 @@ h1{
     padding: 10px;
     margin: 5px;
     /* border-bottom: 1px solid #aaaaaa; */
-    font-family:'Courier New', Courier, monospace;
+    font-family: var(--font-b);
     background-color: #ececec;
     color: black;
 }
