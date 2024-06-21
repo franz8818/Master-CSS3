@@ -1,0 +1,98 @@
+body {
+    background-color: #b8daba;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* BEM */
+.cardsA{
+    /*
+    TAMAÑOS
+    */
+    width: 400px;
+    /*
+    MARGENES
+    */
+    margin: 30px auto;
+    padding: 20px;
+     /*
+    EXTRAS
+    */
+    border: 2px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.cards__cardA{
+    padding: 10px;
+    margin: 5px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #ececec;
+}
+
+/* .clave .key selector */
+.cardA__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardA__link {
+    color: 15202b;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cardA__link--pink{
+    background-color: hotpink;
+}
+
+
+/* FORMA CLASICA */
+.cardsB{
+    /*
+    TAMAÑOS
+    */
+    width: 300px;
+    height: 300px;
+    /*
+    MARGENES
+    */
+    margin: 30px auto;
+    padding: 20px;
+     /*
+    EXTRAS
+    */
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    background-color: #212121;
+
+}
+
+.cardsB .cardB{
+    padding: 10px;
+    margin: 5px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: #18191A;
+    color: #E4E6EB;
+}
+
+/* .contexto .clave */
+.cardsB .cardB h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cardsB .cardB a {
+    color: hotpink;
+    padding: 10px;
+}
